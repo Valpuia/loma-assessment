@@ -22,3 +22,14 @@ Below is the API endpoint for membership
 - CREATE (POST) - localhost/api/membership/create
 - UPDATE (POST) - localhost/api/membership/update/{id}
 - DELETE (DELETE) - localhost/api/membership/delete/{id}
+
+## SUBSCRIPTION
+
+Below is the API endpoint for subcription
+
+- SUBSCRIBE (POST) - localhost/api/subscribe
+- UNSUBSCRIBE (POST) - localhost/api/un-subscribe/{id}
+
+## AUTO RENEW SUBSCRIPTION
+
+`php artisan subscription:renew`
